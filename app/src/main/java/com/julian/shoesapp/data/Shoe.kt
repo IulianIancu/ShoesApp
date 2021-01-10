@@ -6,8 +6,8 @@ data class Shoe(
     var currentKilometerWalked: ShoeCounter
 )
 
-class ShoeCounter {
-    var currentWalkedKm: Int = 0
+class ShoeCounter(startingKm: Int) {
+    var currentWalkedKm = startingKm
     fun increment() {
         currentWalkedKm++
     }

@@ -1,3 +1,2 @@
-include ':Injector'
 include ':app'
 rootProject.name = "ShoesApp"

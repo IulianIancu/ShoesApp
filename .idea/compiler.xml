@@ -2,8 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Xmx2048m" />
-    <bytecodeTargetLevel target="1.7">
-      <module name="ShoesApp.app" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8" />
   </component>
 </project>

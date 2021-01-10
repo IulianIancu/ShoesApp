@@ -1,4 +1,5 @@
 package com.julian.injector
 
-class MyClass {
+open class ObjectGraph {
+
 }
