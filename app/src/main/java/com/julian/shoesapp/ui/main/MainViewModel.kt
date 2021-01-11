@@ -3,8 +3,8 @@ package com.julian.shoesapp.ui.main
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.julian.shoesapp.data.Shoe
-import com.julian.shoesapp.repository.ShoeRepository
+import com.julian.data.Shoe
+import com.julian.data.repository.ShoeRepository
 
 class MainViewModel : ViewModel() {
     var shoeRepository: ShoeRepository? = null

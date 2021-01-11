@@ -1,7 +1,7 @@
-package com.julian.shoesapp.repository
+package com.julian.data.repository
 
-import com.julian.shoesapp.data.Shoe
-import com.julian.shoesapp.data.ShoeCounter
+import com.julian.data.Shoe
+import com.julian.data.ShoeCounter
 
 class FakeShoeRepository(val shoeCounterFactory: () -> ShoeCounter) : ShoeRepository {
     override fun getNewShoe(): Shoe {

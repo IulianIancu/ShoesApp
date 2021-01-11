@@ -1,4 +1,4 @@
-package com.julian.shoesapp.data
+package com.julian.data
 
 data class Shoe(
     val name: String,

@@ -1,6 +1,6 @@
-package com.julian.shoesapp.repository
+package com.julian.data.repository
 
-import com.julian.shoesapp.data.Shoe
+import com.julian.data.Shoe
 
 interface ShoeRepository {
     fun getNewShoe(): Shoe

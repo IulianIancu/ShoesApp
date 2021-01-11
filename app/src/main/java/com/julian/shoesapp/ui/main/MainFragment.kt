@@ -1,15 +1,14 @@
 package com.julian.shoesapp.ui.main
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import com.julian.data.repository.ShoeRepository
 import com.julian.shoesapp.R
-import com.julian.shoesapp.data.Shoe
 import com.julian.shoesapp.observe
-import com.julian.shoesapp.repository.ShoeRepository
 
 class MainFragment(private val shoeRepository: ShoeRepository) : Fragment() {
 
@@ -37,11 +36,11 @@ class MainFragment(private val shoeRepository: ShoeRepository) : Fragment() {
         viewModel.useShoeRepository(shoeRepository)
     }
 
-    private fun onNewListOfShoes(list: List<Shoe>?) {
+    private fun onNewListOfShoes(list: List<com.julian.data.Shoe>?) {
         //TODO do something with the shoes
     }
 
-    private fun onNewLatestShoes(shoe: Shoe?) {
+    private fun onNewLatestShoes(shoe: com.julian.data.Shoe?) {
         //TODO do something with shoes
     }
 
